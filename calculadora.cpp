@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 
       /*  Esto Es Una Anotacion
                | | |
@@ -31,9 +32,9 @@ int main() {
 
         // aqui sale el resultado
         cout << "el resultado es: "<< resul << endl;
-         break; 
-
-         case 2:
+        break; 
+ 
+        case 2:
         cout << "has elegido una resta \n";
         cout << endl ;
 
@@ -78,15 +79,11 @@ int main() {
 
         // aqui sale el resultado
         cout << "el resultado es: "<< resul << endl;
-         break; 
+        break; 
 
-         default :
-         cout << "pon un numero del 1 al 4 :D \n "; 
-        }   
-
-
+        default :
+        cout << "pon un numero del 1 al 4 :D \n "; 
+    }   
                              
-
-
     return 0;
 }
